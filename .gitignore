@@ -1,0 +1,47 @@
+# Environment variables (RAHASIA - jangan di-commit!)
+.env
+.env.*
+!.env.example
+
+# Docker volumes & data
+data/
+volumes/
+
+# n8n data
+n8n/
+.n8n/
+
+# Ollama models (besar banget)
+ollama/
+
+# Google Service Account credentials (RAHASIA!)
+*.json
+!package.json
+!package-lock.json
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (kalau ada)
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# WAHA session data (berisi credentials WA)
+.sessions/
+sessions/
