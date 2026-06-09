@@ -187,7 +187,9 @@ docker compose up -d --force-recreate waha
 
 ### 7.1 Buka Dashboard WAHA
 
-Buka browser → http://localhost:3000/dashboard
+Buka browser → http://admin:admin123@localhost:3000/dashboard
+
+> 💡 **Tips:** Gunakan format `http://username:password@localhost:3000/dashboard` agar login otomatis tanpa popup!
 
 Login:
 
@@ -334,12 +336,12 @@ docker compose restart n8n
 
 ## 📌 URL & Credentials Penting
 
-| Service        | URL                             | Login              |
-| -------------- | ------------------------------- | ------------------ |
-| n8n            | http://localhost:5678           | akun yang didaftar |
-| WAHA Dashboard | http://localhost:3000/dashboard | admin / admin123   |
-| Ollama API     | http://localhost:11434          | —                  |
-| Redis          | localhost:6379                  | password: redis123 |
+| Service        | URL                                            | Login              |
+| -------------- | ---------------------------------------------- | ------------------ |
+| n8n            | http://localhost:5678                          | akun yang didaftar |
+| WAHA Dashboard | http://admin:admin123@localhost:3000/dashboard | admin / admin123   |
+| Ollama API     | http://localhost:11434                         | —                  |
+| Redis          | localhost:6379                                 | password: redis123 |
 
 **Google Sheets Spreadsheet ID:**
 
